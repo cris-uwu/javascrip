@@ -1,0 +1,24 @@
+<h1>
+
+    <var alumno = {
+    nombre: null,
+    apellidos: null,
+    fecha_nacimiento: null,
+    saluda(){
+        return "Hola mi nombre es: "+ this.nombre +" "+ this.apellidos + " mucho gusto";
+    },
+    edad(){
+        
+    }
+}
+
+function saveStudent(){
+    alumno.nombre = document.getElementById('name').value;
+    alumno.apellidos = document.getElementById('lastname').value;
+}
+
+ function saludar(){
+   alert(alumno.saluda());
+
+}
+</h1>
